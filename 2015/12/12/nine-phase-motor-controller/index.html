@@ -107,7 +107,7 @@ header::after {
 <article>
   <span class="meta">Dec 12, 2015 • 2&nbsp;min read</span>
 	<h1>Nine Phase Motor Controller</h1>
-		<p>Over the summer, I had the privilege of participating in the <a href="http://http://www.powerracingseries.org/">PowerWheels Racing Series</a>. Think back to the little toy cars 5 year olds rode in made of plastic and hot rod dreams.</p>
+		<p>Over the summer, I had the privilege of participating in the <a href="http://www.powerracingseries.org/">PowerWheels Racing Series</a>. Think back to the little toy cars 5 year olds rode in made of plastic and hot rod dreams.</p>
 
 <p><img src="/img/powerbarbie.jpg" alt="picture of car here" /> <small>Barbie has more horsepower than you</small></p>
 
@@ -120,12 +120,12 @@ header::after {
 
 <h3 id="important-parts-list">Important Parts List:</h3>
 <ul>
-  <li><a href="https://www.ti.com/docs/prod/folders/print/drv8302.html">DVR8302</a> - Gate Driver</li>
+  <li><a href="http://www.ti.com/product/drv8302">DVR8302</a> - Gate Driver</li>
   <li>Arduino Pro Mini - Logic</li>
   <li>PSMN7R0-100PS 100V 100A 6.8 mOhm</li>
 </ul>
 
-<p>The <a href="https://www.ti.com/docs/prod/folders/print/drv8302.html">DVR8302</a> is a beautiful chip. It features a current sense amplifier, automatic overcurrent shutoff, a buck converter (on a completely separate die within the chip!) and low side PWM generation. <br />
+<p>The <a href="http://www.ti.com/product/drv8302">DVR8302</a> is a beautiful chip. It features a current sense amplifier, automatic overcurrent shutoff, a buck converter (on a completely separate die within the chip!) and low side PWM generation. <br />
 Because it’s so complex, was a pain to work with. It’s difficult to debug, hard to solder correctly without a microscope, and sometimes just exhibits off behavior due to current protection. It’s worth the extra hassle in having a compact driver and the possibility of a fairly advanced controller.</p>
 
 <p>In later revisions, the controller will implement current sensing as well as proper overcurrent proteciton. For version one however, the goal was simply three turning motors.</p>
