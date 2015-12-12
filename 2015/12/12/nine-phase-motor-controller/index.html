@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width">
 <title>
 
-New Website • Rebecca Li
+Nine Phase Motor Controller • Rebecca Li
 
 </title>
 <meta name="description" content=" Rebecca Li is an undergraduate in Mechanical Engineering and Robotics at MIT.">
@@ -24,7 +24,7 @@ New Website • Rebecca Li
 
 <!-- og tags -->
 <meta property="og:site_name" content="Rebecca Li">
-<meta property="og:title" content="New Website • Rebecca Li">
+<meta property="og:title" content="Nine Phase Motor Controller • Rebecca Li">
 <meta property="og:locale" content="en">
 
   
@@ -32,7 +32,7 @@ New Website • Rebecca Li
   
 
 <meta property="og:type" content="website">
-<meta property="og:url" content="http://rebecca.li//2015/12/11/new-website/">
+<meta property="og:url" content="http://rebecca.li//2015/12/12/nine-phase-motor-controller/">
 <meta property="og:description" content="
 
 Rebecca Li is an undergraduate in Mechanical Engineering and Robotics at MIT.
@@ -105,22 +105,45 @@ header::after {
 
 
 <article>
-  <span class="meta">Dec 11, 2015 • 1&nbsp;min read</span>
-	<h1>New Website</h1>
-		<p>Blogs are like keeping a small animal. Occasionally you have to feed them. Occasionally you have to maintain their appearance, and occasionally they’re a pain in the ass to do so. My previous website was built on <a href="https://anchorcms.com/">Anchor CMS</a>, an unwieldy heavy website for <em>beautiful blogging</em>. A SQL server later, I had Anchor running with a metric ton of backend and little bits of PHP.</p>
+  <span class="meta">Dec 12, 2015 • 2&nbsp;min read</span>
+	<h1>Nine Phase Motor Controller</h1>
+		<p>Over the summer, I had the privilege of participating in the <a href="http://http://www.powerracingseries.org/">PowerWheels Racing Series</a>. Think back to the little toy cars 5 year olds rode in made of plastic and hot rod dreams.</p>
 
-<p>Since then I’ve looked around at a few websites and came across <a href="http://jekyllrb.com">Jekyll</a>, an extremely reasonable static website platform with little backend to speak of. It took 20 minutes to set up the first local instance, and now this website is running. Some features I enjoy:</p>
+<p><img src="/img/powerbarbie.jpg" alt="picture of car here" /> <small>Barbie has more horsepower than you</small></p>
 
+<p>The PowerWheels series consists of racing go-karts made out of these Fisher Price Power Wheels, for under $500. Recently, it graduated to turning the kid cars into <em>autonomous go-karts</em>, with a steering linkage driven by a servo and a very-not-cheap LIDAR camera. Not surprisingly, it is difficult to find a high current servo controller that isn’t terribly expensive. All together, a go-kart driven off of brushless motors and a DC servo has 3 motor controllers, for a total of 8 half bridges.</p>
+
+<p>This year, I had the following idea: What if you just had one board, with all of your power electronics, on <em>one board</em>? And Nine Phase was born.</p>
+
+<h2 id="the-controller">The Controller</h2>
+<p>Nine Phase is three three phase motor controllers, to control 3 brushless motors, with the ability to convert and of the individual controllers into an H bridge configurations. (Credits to <a href="http://isopack.blogspot.com">Bayley Wang</a> for his extensive help in this endevour). Of course, you could also go and use all of the phases together to make a <em>nine phase controller</em>, hence the name. Its uses could be autonomous gokart, 3 omniwheel drive robot, battlebot with two drive motors and weapon motor, etc.</p>
+
+<h3 id="important-parts-list">Important Parts List:</h3>
 <ul>
-  <li>Static pages</li>
-  <li>Markdown syntax</li>
-  <li>Strong community of developers who write clean code</li>
-  <li>Command-line local instances, as well as interfacing well with <a href="https://pages.github.com/">Github Pages</a></li>
+  <li><a href="https://www.ti.com/docs/prod/folders/print/drv8302.html">DVR8302</a> - Gate Driver</li>
+  <li>Arduino Pro Mini - Logic</li>
+  <li>PSMN7R0-100PS 100V 100A 6.8 mOhm</li>
 </ul>
 
-<p>I would also like to credit <a href="https://github.com/steinvc/holo-alfa">Holo Alfa</a> as the theme I am using, which is clean, responsive, and easy to manage. Their page has a great description of how to spin up their page as well as <a href="http://jekyllrb.com">Jekyll</a> in under thirty minutes. That is, if you don’t futz around with colors for ages like me!</p>
+<p>The <a href="https://www.ti.com/docs/prod/folders/print/drv8302.html">DVR8302</a> is a beautiful chip. It features a current sense amplifier, automatic overcurrent shutoff, a buck converter (on a completely separate die within the chip!) and low side PWM generation. <br />
+Because it’s so complex, was a pain to work with. It’s difficult to debug, hard to solder correctly without a microscope, and sometimes just exhibits off behavior due to current protection. It’s worth the extra hassle in having a compact driver and the possibility of a fairly advanced controller.</p>
 
-<p>You can find <a href="https://github.com/rebeccali/holo-alfa/">the source for this website on Github</a>.</p>
+<p>In later revisions, the controller will implement current sensing as well as proper overcurrent proteciton. For version one however, the goal was simply three turning motors.</p>
+
+<p><img src="/img/ninephasev1.png" alt="picture of board layout" /> <small>Version 1 Layout, with the drain and source switched on the MOSFETs.</small></p>
+
+<p>The first version worked with only two hand-soldered wires, working up to ~30V. Above 30V, the motor controller would explode from bus rail noise. But, it turned brushless motors as well as doing position control on a gearmotor. That means it works, right?</p>
+
+<h3 id="future-revisions">Future Revisions</h3>
+<ul>
+  <li>Switch D and S on MOSFETs</li>
+  <li>Move Throttle pins to Analog Inputs</li>
+  <li>Current sense in code</li>
+  <li>CW rotation support</li>
+  <li>Better wire layout</li>
+</ul>
+
+<p>You can find the Eagle files and Arduino code on my <a href="https://github.com/rebeccali/ninephase">Github</a>. Protected under MIT License.</p>
 
 
   
@@ -130,12 +153,12 @@ header::after {
 <div class="pagination clearfix">
   <div class="left">
     
-      <a href="/2015/12/12/nine-phase-motor-controller/">‹ Next post</a>
+      <span class="disabled">‹ Next post</span>
     
   </div>
   <div class="right">
     
-      <span class="disabled">Previous post ›</span>
+      <a href="/2015/12/11/new-website/">Previous post ›</a>
     
   </div>
 </div>
