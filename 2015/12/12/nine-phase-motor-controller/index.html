@@ -28,7 +28,7 @@ Nine Phase Motor Controller • Rebecca Li
 <meta property="og:locale" content="en">
 
   
-    <meta property="og:image" content="http://rebecca.li//img/og-image.jpg">
+    <meta property="og:image" content="http://rebecca.li//img/l3lb2.png">
   
 
 <meta property="og:type" content="website">
@@ -79,6 +79,10 @@ header::after {
 </head>
 <body>
 	
+	<div class="cover-image-container">
+		<img alt="Cover image" src="/img/covers/l3lb2.png">
+	</div>
+	
 	<div class="wrap">
 		<header>
   <a href="/" class="website-title">
@@ -128,9 +132,10 @@ header::after {
 <p>The <a href="http://www.ti.com/product/drv8302">DVR8302</a> is a beautiful chip. It features a current sense amplifier, automatic overcurrent shutoff, a buck converter (on a completely separate die within the chip!) and low side PWM generation. <br />
 Because it’s so complex, was a pain to work with. It’s difficult to debug, hard to solder correctly without a microscope, and sometimes just exhibits off behavior due to current protection. It’s worth the extra hassle in having a compact driver and the possibility of a fairly advanced controller.</p>
 
-<p>In later revisions, the controller will implement current sensing as well as proper overcurrent proteciton. For version one however, the goal was simply three turning motors.</p>
+<p>In later revisions, the controller will implement current sensing as well as proper overcurrent protection. For version one however, the goal was simply three turning motors.</p>
 
-<p><img src="/img/ninephasev1.png" alt="picture of board layout" /> <small>Version 1 Layout, with the drain and source switched on the MOSFETs.</small></p>
+<p><img src="/img/ninephasev1.png" alt="picture of board layout" /> <small>Version 1 Layout, with the drain and source switched on the MOSFETs.</small><br />
+<img src="/img/l3lb1.png" alt="picture of board" /> <small>Version 1 board</small></p>
 
 <p>The first version worked with only two hand-soldered wires, working up to ~30V. Above 30V, the motor controller would explode from bus rail noise. But, it turned brushless motors as well as doing position control on a gearmotor. That means it works, right?</p>
 
