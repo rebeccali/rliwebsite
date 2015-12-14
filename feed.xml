@@ -7,6 +7,24 @@
 		<atom:link href="http://rebecca.li//feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Frozen Chainsaw Massacre</title>
+				
+					
+						<dc:creator>{&quot;name&quot;=&gt;&quot;Rebecca Li&quot;, &quot;email&quot;=&gt;&quot;rebecca@mit.edu&quot;, &quot;info&quot;=&gt;nil}</dc:creator>
+					
+				
+				
+					<description>&lt;p&gt;The summer comes with wonderful joys. Ice cream, air conditioning, free time, and go-karts. Last summer I played pit crew for &lt;a href=&quot;http://www.etotheipiplusone.net/?cat=112&quot;&gt;Charles Guan’s Chibi Mikuvan&lt;/a&gt;. &lt;br /&gt;
+&lt;img src=&quot;/img/chibi-on-van.jpg&quot; alt=&quot;picture of chibimikuvan here&quot; /&gt; &lt;small&gt;Chibi Mikuvan: the most Adorable little van, on top of it’s muse. Source: www.etotheipiplusone.net&lt;/small&gt;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Mon, 14 Dec 2015 00:00:00 -0500</pubDate>
+				<link>http://rebecca.li//2015/12/14/frozen-chainsaw-massacre/</link>
+				<guid isPermaLink="true">http://rebecca.li//2015/12/14/frozen-chainsaw-massacre/</guid>
+			</item>
+		
+			<item>
 				<title>Nine Phase Motor Controller</title>
 				
 					

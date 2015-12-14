@@ -17,8 +17,8 @@ Nine Phase Motor Controller • Rebecca Li
 <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
 <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
 
-<meta name="theme-color" content="#00f0ff">
-<meta name="msapplication-TileColor" content="#00f0ff">
+<meta name="theme-color" content="#1C3848">
+<meta name="msapplication-TileColor" content="#1C3848">
 <meta name="msapplication-TileImage" content="/mstile-310x310.png">
 <!-- /icons -->
 
@@ -51,6 +51,7 @@ Rebecca Li is an undergraduate in Mechanical Engineering and Robotics at MIT.
 <link rel="stylesheet" href="/css/style.css">
 <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet' type='text/css'>
 <!--[if gte IE 9]>
   <style type="text/css">
     .gradient {
@@ -115,7 +116,7 @@ header::after {
 
 <p><img src="/img/powerbarbie.jpg" alt="picture of car here" /> <small>Barbie has more horsepower than you</small></p>
 
-<p>The PowerWheels series consists of racing go-karts made out of these Fisher Price Power Wheels, for under $500. Recently, it graduated to turning the kid cars into <em>autonomous go-karts</em>, with a steering linkage driven by a servo and a very-not-cheap LIDAR camera. Not surprisingly, it is difficult to find a high current servo controller that isn’t terribly expensive. All together, a go-kart driven off of brushless motors and a DC servo has 3 motor controllers, for a total of 8 half bridges.</p>
+<p>The PowerWheels series consists of racing go-karts made out of these Fisher Price Power Wheels, for under $500. Recently, it graduated to turning the kid cars into <em>autonomous go-karts</em>, with a steering linkage driven by a servo and a very-not-cheap LIDAR camera. Not surprisingly, it is difficult to find a high current servo controller that isn’t terribly expensive. In addition to the servo, one also needs drive motors, throttle, etc which can builds up to a fair amount of electronics. All together, a go-kart driven off of brushless motors and a DC servo has 3 separate motor controllers, with a total of 8 half bridges.</p>
 
 <p>This year, I had the following idea: What if you just had one board, with all of your power electronics, on <em>one board</em>? And Nine Phase was born.</p>
 
@@ -126,7 +127,7 @@ header::after {
 <ul>
   <li><a href="http://www.ti.com/product/drv8302">DVR8302</a> - Gate Driver</li>
   <li>Arduino Pro Mini - Logic</li>
-  <li>PSMN7R0-100PS 100V 100A 6.8 mOhm</li>
+  <li>PSMN7R0-100PS 100V 100A 6.8 mOhm MOSFET</li>
 </ul>
 
 <p>The <a href="http://www.ti.com/product/drv8302">DVR8302</a> is a beautiful chip. It features a current sense amplifier, automatic overcurrent shutoff, a buck converter (on a completely separate die within the chip!) and low side PWM generation. <br />
@@ -158,7 +159,7 @@ Because it’s so complex, was a pain to work with. It’s difficult to debug, h
 <div class="pagination clearfix">
   <div class="left">
     
-      <span class="disabled">‹ Next post</span>
+      <a href="/2015/12/14/frozen-chainsaw-massacre/">‹ Next post</a>
     
   </div>
   <div class="right">
