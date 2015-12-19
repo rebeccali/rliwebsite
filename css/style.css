@@ -95,6 +95,11 @@ img {
   margin: 0 -15px;
   text-align: center;
 }
+a.fancybox>img{
+  
+  padding-top:30px;
+  padding-bottom:30px;
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: "Play", Verdana, sans-serif;
   font-weight: 900;

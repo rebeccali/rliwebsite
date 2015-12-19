@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width">
 <title>
 
-Nine Phase Motor Controller • Rebecca Li
+Portrait - Neerja • Rebecca Li
 
 </title>
 <meta name="description" content=" Rebecca Li is an undergraduate in Mechanical Engineering and Robotics at MIT.">
@@ -24,15 +24,15 @@ Nine Phase Motor Controller • Rebecca Li
 
 <!-- og tags -->
 <meta property="og:site_name" content="Rebecca Li">
-<meta property="og:title" content="Nine Phase Motor Controller • Rebecca Li">
+<meta property="og:title" content="Portrait - Neerja • Rebecca Li">
 <meta property="og:locale" content="en">
 
   
-    <meta property="og:image" content="http://rebecca.li//img/l3lb2.png">
+    <meta property="og:image" content="http://rebecca.li//img/og-image.jpg">
   
 
 <meta property="og:type" content="website">
-<meta property="og:url" content="http://rebecca.li//2015/12/12/nine-phase-motor-controller/">
+<meta property="og:url" content="http://rebecca.li//2015/12/15/nightwork/">
 <meta property="og:description" content="
 
 Rebecca Li is an undergraduate in Mechanical Engineering and Robotics at MIT.
@@ -92,10 +92,6 @@ header::after {
 </head>
 <body>
 	
-	<div class="cover-image-container">
-		<img alt="Cover image" src="/img/covers/l3lb2.png">
-	</div>
-	
 	<div class="wrap">
 		<header>
   <a href="/" class="website-title">
@@ -122,46 +118,41 @@ header::after {
 
 
 <article>
-  <span class="meta">Dec 12, 2015 • 2&nbsp;min read</span>
-	<h1>Nine Phase Motor Controller</h1>
-		<p>Over the summer, I had the privilege of participating in the <a href="http://www.powerracingseries.org/">PowerWheels Racing Series</a>. Think back to the little toy cars 5 year olds rode in made of plastic and hot rod dreams.</p>
+  <span class="meta">Dec 15, 2015 • 2&nbsp;min read</span>
+	<h1>Portrait - Neerja</h1>
+		<p><em>All pictures taken with a Nikon D7100 and Sigma 18-35mm f/1.8 lens</em></p>
 
-<p><img src="/img/powerbarbie.jpg" alt="picture of car here" /> <small>Barbie has more horsepower than you</small></p>
+<p>Over the semester I’ve picked up more and more photography as a hobby. Ever since I started borrowing my friend’s very pretty camera, I’ve started taking pictures of everything.<br />
+The most interesting part is how you can make pictures more beautiful than real life. The unadulterated RAWs are often not gorgeous, but even then, they capture more detail than I can take in one moment. The pictures are further enhanced by using a photo editor to bring out color where there was none, set mood, tone - everything. I stopped believing that photos are anything close to reality anymore.</p>
 
-<p>The PowerWheels series consists of racing go-karts made out of these Fisher Price Power Wheels, for under $500. Recently, it graduated to turning the kid cars into <em>autonomous go-karts</em>, with a steering linkage driven by a servo and a very-not-cheap LIDAR camera. Not surprisingly, it is difficult to find a high current servo controller that isn’t terribly expensive. In addition to the servo, one also needs drive motors, throttle, etc which can builds up to a fair amount of electronics. All together, a go-kart driven off of brushless motors and a DC servo has 3 separate motor controllers, with a total of 8 half bridges.</p>
+<p><a class="fancybox" rel="group" href="/img/neerja/large-LYC_5920.png" title="&copy; 2015 Rebecca Li"><img src="/img/neerja/process-LYC_5920_1.png" alt="" /></a></p>
 
-<p>This year, I had the following idea: What if you just had one board, with all of your power electronics, on <em>one board</em>? And Nine Phase was born.</p>
+<p>I decided to take photos of my friend, Neerja, and see whether I could capture some stellar shots. Some of these are good, some have poor composition, some were just experiments. I tried my best to get a few with the “Senior portraits” feel along with a few that are just aesthetic. As a model, Neerja was very energetic which sometimes made it hard to get a shot at the right angle since she would move so often. She did provide a lot of inspiration with her movements, but it led to too many blurred shots and lost moments. My retention rate for photos ended up being less than 5% - fairly abyssal. In the future, I intend to give models more direction in pose and staying still darn it (or get faster autofocus).</p>
 
-<h2 id="the-controller">The Controller</h2>
-<p>Nine Phase is three three phase motor controllers, to control 3 brushless motors, with the ability to convert and of the individual controllers into an H bridge configurations. (Credits to <a href="http://isopack.blogspot.com">Bayley Wang</a> for his extensive help in this endevour). Of course, you could also go and use all of the phases together to make a <em>nine phase controller</em>, hence the name. Its uses could be autonomous gokart, 3 omniwheel drive robot, battlebot with two drive motors and weapon motor, etc.</p>
+<p><a class="fancybox" rel="group" href="/img/neerja/large-LYC_6011.png" title="&copy; 2015 Rebecca Li"><img src="/img/neerja/process-LYC_6011.png" alt="" /></a><br />
+<a class="fancybox" rel="group" href="/img/neerja/process4-LYC_6103.png" title="&copy; 2015 Rebecca Li"><img src="/img/neerja/process4-LYC_6103.png" alt="" /></a><br />
+<a class="fancybox" rel="group" href="/img/neerja/large-LYC_5768.png" title="&copy; 2015 Rebecca Li"><img src="/img/neerja/process-LYC_5768.png" alt="" /></a><br />
+<a class="fancybox" rel="group" href="/img/neerja/large-LYC_5823.png" title="&copy; 2015 Rebecca Li"><img src="/img/neerja/process-LYC_5823_1.png" alt="" /></a><br />
+<a class="fancybox" rel="group" href="/img/neerja/large-LYC_5995.png" title="&copy; 2015 Rebecca Li"><img src="/img/neerja/process3-LYC_5995.png" alt="" /></a><br />
+<a class="fancybox" rel="group" href="/img/neerja/large-LYC_5940.png" title="&copy; 2015 Rebecca Li"><img src="/img/neerja/process-LYC_5940_1.png" alt="" /></a><br />
+<a class="fancybox" rel="group" href="/img/neerja/large-LYC_5766.png" title="&copy; 2015 Rebecca Li"><img src="/img/neerja/process-LYC_5766.png" alt="" /></a></p>
 
-<h3 id="important-parts-list">Important Parts List:</h3>
-<ul>
-  <li><a href="http://www.ti.com/product/drv8302">DVR8302</a> - Gate Driver</li>
-  <li>Arduino Pro Mini - Logic</li>
-  <li>PSMN7R0-100PS 100V 100A 6.8 mOhm MOSFET</li>
-</ul>
+<p>Credits to Neerja Aggarwal for her beautiful face.</p>
 
-<p>The <a href="http://www.ti.com/product/drv8302">DVR8302</a> is a beautiful chip. It features a current sense amplifier, automatic overcurrent shutoff, a buck converter (on a completely separate die within the chip!) and low side PWM generation. <br />
-Because it’s so complex, was a pain to work with. It’s difficult to debug, hard to solder correctly without a microscope, and sometimes just exhibits off behavior due to current protection. It’s worth the extra hassle in having a compact driver and the possibility of a fairly advanced controller.</p>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox({
+			openEffect : 'none',
+    		closeEffect	: 'none',
+	    	helpers : {
+	    		title : {
+	    			type : 'inside'
+	    		}
+	    	}
+		});
 
-<p>In later revisions, the controller will implement current sensing as well as proper overcurrent protection. For version one however, the goal was simply three turning motors.</p>
-
-<p><img src="/img/ninephasev1.png" alt="picture of board layout" /> <small>Version 1 Layout, with the drain and source switched on the MOSFETs.</small><br />
-<img src="/img/l3lb1.png" alt="picture of board" /> <small>Version 1 board</small></p>
-
-<p>The first version worked with only two hand-soldered wires, working up to ~30V. Above 30V, the motor controller would explode from bus rail noise. But, it turned brushless motors as well as doing position control on a gearmotor. That means it works, right?</p>
-
-<h3 id="future-revisions">Future Revisions</h3>
-<ul>
-  <li>Switch D and S on MOSFETs</li>
-  <li>Move Throttle pins to Analog Inputs</li>
-  <li>Current sense in code</li>
-  <li>CW rotation support</li>
-  <li>Better wire layout</li>
-</ul>
-
-<p>You can find the Eagle files and Arduino code on my <a href="https://github.com/rebeccali/ninephase">Github</a>. Protected under MIT License.</p>
+	});
+</script>
 
 
   
@@ -171,12 +162,12 @@ Because it’s so complex, was a pain to work with. It’s difficult to debug, h
 <div class="pagination clearfix">
   <div class="left">
     
-      <a href="/2015/12/14/frozen-chainsaw-massacre/">‹ Next post</a>
+      <span class="disabled">‹ Next post</span>
     
   </div>
   <div class="right">
     
-      <a href="/2015/12/11/new-website/">Previous post ›</a>
+      <a href="/2015/12/14/frozen-chainsaw-massacre/">Previous post ›</a>
     
   </div>
 </div>
