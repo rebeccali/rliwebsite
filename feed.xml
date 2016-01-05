@@ -7,6 +7,23 @@
 		<atom:link href="http://rebecca.li//feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>OpenSCAD GEB-Inspired Block</title>
+				
+					
+						<dc:creator>{&quot;name&quot;=&gt;&quot;Rebecca Li&quot;, &quot;email&quot;=&gt;&quot;rebecca@mit.edu&quot;, &quot;info&quot;=&gt;nil}</dc:creator>
+					
+				
+				
+					<description>&lt;p&gt;This is a block that I made with &lt;a href=&quot;http://www.openscad.org/&quot;&gt;OpenSCAD, a code-based 3D solid modeler&lt;/a&gt;. The block is two words - love and hate - on different sides of the block such that you can only read one from any given side. The first version I made was in Rhino and promptly lost to a spontaneous system wipe. The new version is all parametric, woo~&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Mon, 04 Jan 2016 00:00:00 -0500</pubDate>
+				<link>http://rebecca.li//2016/01/04/openscad-geb-inspired-block/</link>
+				<guid isPermaLink="true">http://rebecca.li//2016/01/04/openscad-geb-inspired-block/</guid>
+			</item>
+		
+			<item>
 				<title>Portrait - Neerja</title>
 				
 					
