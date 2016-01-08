@@ -52,6 +52,7 @@ Rebecca Li is an undergraduate in Mechanical Engineering and Robotics at MIT.
 
 <script src="/js/modernizr.js"></script>
 <script src="/js/fitvids.js"></script>
+<script src="/js/snake.js"></script>
 
 
 <link href='//fonts.googleapis.com/css?family=Source+Code+Pro:400,700|Source+Sans+Pro:600,900|Crimson+Text:700italic,600,600italic,400,700,400italic' rel='stylesheet' type='text/css'>
@@ -91,8 +92,9 @@ header::after {
 	
 </head>
 <body>
+	<canvas class="snake" id="stage" height="400" width="520" style="display:none;"></canvas>
 	
-	<div class="wrap">
+	<div class="wrap" id="wrap1">
 		<header>
   <a href="/" class="website-title">
     
@@ -117,8 +119,12 @@ header::after {
 		
 
   
+
+  
     
-      <h3>2016</h3>
+      
+      
+      
     
 
     <p><a href="/2016/01/04/openscad-geb-inspired-block/">OpenSCAD GEB-Inspired Block</a><small> • Jan 4, 2016</small></p>

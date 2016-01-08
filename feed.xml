@@ -7,6 +7,25 @@
 		<atom:link href="http://rebecca.li//feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Snakes on a Page</title>
+				
+					
+						<dc:creator>{&quot;name&quot;=&gt;&quot;Rebecca Li&quot;, &quot;email&quot;=&gt;&quot;rebecca@mit.edu&quot;, &quot;info&quot;=&gt;nil}</dc:creator>
+					
+				
+				
+					<description>&lt;p&gt;Press &lt;strong&gt;s&lt;/strong&gt;. &lt;br /&gt;
+Press &lt;strong&gt;Down Arrow&lt;/strong&gt;.&lt;br /&gt;
+Press &lt;strong&gt;Right Arrow&lt;/strong&gt;.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Thu, 07 Jan 2016 00:00:00 -0500</pubDate>
+				<link>http://rebecca.li//2016/01/07/snakes-on-a-page/</link>
+				<guid isPermaLink="true">http://rebecca.li//2016/01/07/snakes-on-a-page/</guid>
+			</item>
+		
+			<item>
 				<title>OpenSCAD GEB-Inspired Block</title>
 				
 					
