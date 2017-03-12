@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
-		<title>Rebecca Li</title>
-		<description>{&quot;meta&quot;=&gt;&quot;Rebecca Li is an undergraduate in Mechanical Engineering and Robotics at MIT.&quot;, &quot;subtitle&quot;=&gt;&quot;Rebecca&#39;s personal thought dump, project bank, and art haus.&quot;}</description>
+		<title>REBECCA LI</title>
+		<description>{&quot;meta&quot;=&gt;&quot;Rebecca Li is an undergraduate in Mechanical Engineering and Robotics at MIT.&quot;, &quot;subtitle&quot;=&gt;&quot;Rebecca&#39;s thought dump.&quot;}</description>
 		<link>http://rebecca.li/</link>
 		<atom:link href="http://rebecca.li//feed.xml" rel="self" type="application/rss+xml" />
 		
@@ -18,7 +18,7 @@
 
 </description>
 				
-				<pubDate>Tue, 20 Sep 2016 00:00:00 -0400</pubDate>
+				<pubDate>Tue, 20 Sep 2016 00:00:00 -0700</pubDate>
 				<link>http://rebecca.li//2016/09/20/the-dentist/</link>
 				<guid isPermaLink="true">http://rebecca.li//2016/09/20/the-dentist/</guid>
 			</item>
@@ -37,7 +37,7 @@ Press &lt;strong&gt;Right Arrow&lt;/strong&gt;.&lt;/p&gt;
 
 </description>
 				
-				<pubDate>Thu, 07 Jan 2016 00:00:00 -0500</pubDate>
+				<pubDate>Thu, 07 Jan 2016 00:00:00 -0800</pubDate>
 				<link>http://rebecca.li//2016/01/07/snakes-on-a-page/</link>
 				<guid isPermaLink="true">http://rebecca.li//2016/01/07/snakes-on-a-page/</guid>
 			</item>
@@ -54,7 +54,7 @@ Press &lt;strong&gt;Right Arrow&lt;/strong&gt;.&lt;/p&gt;
 
 </description>
 				
-				<pubDate>Mon, 04 Jan 2016 00:00:00 -0500</pubDate>
+				<pubDate>Mon, 04 Jan 2016 00:00:00 -0800</pubDate>
 				<link>http://rebecca.li//2016/01/04/openscad-geb-inspired-block/</link>
 				<guid isPermaLink="true">http://rebecca.li//2016/01/04/openscad-geb-inspired-block/</guid>
 			</item>
@@ -71,7 +71,7 @@ Press &lt;strong&gt;Right Arrow&lt;/strong&gt;.&lt;/p&gt;
 
 </description>
 				
-				<pubDate>Tue, 15 Dec 2015 00:00:00 -0500</pubDate>
+				<pubDate>Tue, 15 Dec 2015 00:00:00 -0800</pubDate>
 				<link>http://rebecca.li//2015/12/15/portrait-neerja/</link>
 				<guid isPermaLink="true">http://rebecca.li//2015/12/15/portrait-neerja/</guid>
 			</item>
@@ -88,7 +88,7 @@ Press &lt;strong&gt;Right Arrow&lt;/strong&gt;.&lt;/p&gt;
 
 </description>
 				
-				<pubDate>Mon, 14 Dec 2015 00:00:00 -0500</pubDate>
+				<pubDate>Mon, 14 Dec 2015 00:00:00 -0800</pubDate>
 				<link>http://rebecca.li//2015/12/14/frozen-chainsaw-massacre/</link>
 				<guid isPermaLink="true">http://rebecca.li//2015/12/14/frozen-chainsaw-massacre/</guid>
 			</item>
@@ -101,11 +101,11 @@ Press &lt;strong&gt;Right Arrow&lt;/strong&gt;.&lt;/p&gt;
 					
 				
 				
-					<description>&lt;p&gt;Over the summer, I had the privilege of participating in the &lt;a href=&quot;http://www.powerracingseries.org/&quot;&gt;PowerWheels Racing Series&lt;/a&gt;. Think back to the little toy cars 5 year olds rode in made of plastic and hot rod dreams.&lt;/p&gt;
+					<description>&lt;p&gt;Over the summer, I had the privilege of participating in the &lt;a href=&quot;http://www.powerracingseries.org/&quot;&gt;PowerWheels Racing Series&lt;/a&gt;. Think back to the little toy cars 5 year olds rode in made of plastic and hot rod dreams. &lt;/p&gt;
 
 </description>
 				
-				<pubDate>Sat, 12 Dec 2015 00:00:00 -0500</pubDate>
+				<pubDate>Sat, 12 Dec 2015 00:00:00 -0800</pubDate>
 				<link>http://rebecca.li//2015/12/12/nine-phase-motor-controller/</link>
 				<guid isPermaLink="true">http://rebecca.li//2015/12/12/nine-phase-motor-controller/</guid>
 			</item>
@@ -118,11 +118,11 @@ Press &lt;strong&gt;Right Arrow&lt;/strong&gt;.&lt;/p&gt;
 					
 				
 				
-					<description>&lt;p&gt;Blogs are like keeping a small animal. Occasionally you have to feed them. Occasionally you have to maintain their appearance, and occasionally they’re a pain in the ass to do so. My previous website was built on &lt;a href=&quot;https://anchorcms.com/&quot;&gt;Anchor CMS&lt;/a&gt;, an unwieldy heavy website for &lt;em&gt;beautiful blogging&lt;/em&gt;. A SQL server later, I had Anchor running with a metric ton of backend and little bits of PHP.&lt;/p&gt;
+					<description>&lt;p&gt;Blogs are like keeping a small animal. Occasionally you have to feed them. Occasionally you have to maintain their appearance, and occasionally they’re a pain in the ass to do so. My previous website was built on &lt;a href=&quot;https://anchorcms.com/&quot;&gt;Anchor CMS&lt;/a&gt;, an unwieldy heavy website for &lt;em&gt;beautiful blogging&lt;/em&gt;. A SQL server later, I had Anchor running with a metric ton of backend and little bits of PHP. &lt;/p&gt;
 
 </description>
 				
-				<pubDate>Fri, 11 Dec 2015 00:00:00 -0500</pubDate>
+				<pubDate>Fri, 11 Dec 2015 00:00:00 -0800</pubDate>
 				<link>http://rebecca.li//2015/12/11/new-website/</link>
 				<guid isPermaLink="true">http://rebecca.li//2015/12/11/new-website/</guid>
 			</item>

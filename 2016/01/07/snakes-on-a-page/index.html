@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width">
 <title>
 
-Snakes on a Page • Rebecca Li
+Snakes on a Page • REBECCA LI
 
 </title>
 <meta name="description" content=" Rebecca Li is an undergraduate in Mechanical Engineering and Robotics at MIT.">
@@ -23,8 +23,8 @@ Snakes on a Page • Rebecca Li
 <!-- /icons -->
 
 <!-- og tags -->
-<meta property="og:site_name" content="Rebecca Li">
-<meta property="og:title" content="Snakes on a Page • Rebecca Li">
+<meta property="og:site_name" content="REBECCA LI">
+<meta property="og:title" content="Snakes on a Page • REBECCA LI">
 <meta property="og:locale" content="en">
 
   
@@ -58,8 +58,6 @@ Rebecca Li is an undergraduate in Mechanical Engineering and Robotics at MIT.
 <link href='//fonts.googleapis.com/css?family=Source+Code+Pro:400,700|Source+Sans+Pro:600,900|Crimson+Text:700italic,600,600italic,400,700,400italic' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="/css/reset.css">
 <link rel="stylesheet" href="/css/pygments.css">
-
-<link rel="stylesheet" href="/css/font-awesome.css">
 
 <link rel="stylesheet" href="/css/style.css">
 <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
@@ -98,20 +96,18 @@ header::after {
 		<header>
   <a href="/" class="website-title">
     
-      Rebecca Li
+      REBECCA LI
     
 
   </a>
   <nav>
   <a href="/about/">About</a>
-  <a href="/contact/">Contact</a>
-  <a href="/archive/">Archive</a>
-  <a href="/art/">Art</a>
+  <a href="/archive/">Blog</a>
   <a href="/projects/">Projects</a>
-  <a href="/thoughts/">Thoughts</a>
 </nav>
 
   
+  <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada|Nunito|Rock+Salt" rel="stylesheet">
 </header>
 
 		
@@ -128,13 +124,13 @@ Press <strong>Right Arrow</strong>.</p>
 
 <p>Congratulations, if you are not on a phone, you just played the game Snake on this page.</p>
 
-<p>It is an adaption of this <a href="http://codepen.io/CaioPaiola/pen/GFpuK">Codepen Snake game</a> to overlay the webpage. My particular implementation is having a <em>snake.js</em> file generate the snake code into a <code>&lt;canvas&gt;</code> element. The <code>&lt;canvas&gt;</code> element is initially set to <code>display:none;</code> such that it does not show up until the user presses ‘s’. Then <em>snake.js</em> runs the game, which overlays the content of the page.</p>
+<p>It is an adaption of this <a href="http://codepen.io/CaioPaiola/pen/GFpuK">Codepen Snake game</a> to overlay the webpage. My particular implementation is having a <em>snake.js</em> file generate the snake code into a <code>&lt;canvas&gt;</code> element. The <code>&lt;canvas&gt;</code> element is initially set to <code>display:none;</code> such that it does not show up until the user presses ‘s’. Then <em>snake.js</em> runs the game, which overlays the content of the page. </p>
 
-<p>You can find the <a href="https://github.com/rebeccali/holo-alfa/blob/master/js/snake.js">snake.js code here</a>.</p>
+<p>You can find the <a href="https://github.com/rebeccali/holo-alfa/blob/master/js/snake.js">snake.js code here</a>. </p>
 
 <h2 id="adding-snake-to-your-own-webpage">Adding Snake to your own webpage</h2>
 
-<p>To add snake to your own webpage, do the following:</p>
+<p>To add snake to your own webpage, do the following: </p>
 
 <ol>
   <li>Insert the <code>&lt;canvas&gt;</code> tag nested within the <code>&lt;body&gt;</code>. This is where the snake graphics box will live. Don’t worry about the height and width, they are set to dummy values for now. Skip to step 4 to see how to change these values when the game is initialized.</li>
@@ -168,7 +164,7 @@ Press <strong>Right Arrow</strong>.</p>
       <span class="p">}</span></code></pre></div>
 
 <ol>
-  <li>Now, maybe we want to adjust the height and width of the snake game. In that case, within <em>snake.js</em> there is a <code>Game.Snake = function(elementId, conf)</code> funciton, whose implementation is below. Change the <code>var wrap1</code> to the element of your choice, such that snake matches the height and width of that element. Alternatively, omit <code>var wrap1 = ...</code> and the two following lines to let the canvas stay the size initialy determined by the HTML in step 1.</li>
+  <li>Now, maybe we want to adjust the height and width of the snake game. In that case, within <em>snake.js</em> there is a <code>Game.Snake = function(elementId, conf)</code> funciton, whose implementation is below. Change the <code>var wrap1</code> to the element of your choice, such that snake matches the height and width of that element. Alternatively, omit <code>var wrap1 = ...</code> and the two following lines to let the canvas stay the size initialy determined by the HTML in step 1. </li>
 </ol>
 
 <div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">Game</span><span class="p">.</span><span class="nx">Snake</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">elementId</span><span class="p">,</span> <span class="nx">conf</span><span class="p">)</span> <span class="p">{</span>
@@ -186,7 +182,7 @@ Press <strong>Right Arrow</strong>.</p>
       <span class="nx">setInterval</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span><span class="nx">gameDraw</span><span class="p">.</span><span class="nx">drawStage</span><span class="p">();},</span> <span class="nx">snake</span><span class="p">.</span><span class="nx">stage</span><span class="p">.</span><span class="nx">conf</span><span class="p">.</span><span class="nx">fps</span><span class="p">);</span>
     <span class="p">};</span></code></pre></div>
 
-<p>There you go! Leave a comment if you have any issues. Also now I have syntax highlighting!</p>
+<p>There you go! Leave a comment if you have any issues. Also now I have syntax highlighting! </p>
 
 
   
