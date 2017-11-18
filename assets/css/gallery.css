@@ -1,0 +1,44 @@
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * Jekyll gallery css
+ */
+.gallery-description {
+    text-align:center;
+}
+
+.gallery-image-wrapper {
+  /* Prevent vertical gaps */
+  line-height: 0;
+
+  -webkit-column-count: 3;
+  -webkit-column-gap:   10px;
+  -moz-column-count:    3;
+  -moz-column-gap:      10px;
+  column-count:         3;
+  column-gap:           10px;
+}
+
+.gallery-image-wrapper img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom: 10px
+}
+
+.article-page {
+    width:100%;
+}
+
+.gallery-wrapper {
+  text-align: center;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.gallery {
+    display:block;
+}
