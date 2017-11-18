@@ -1,9 +1,10 @@
 ---
-layout: post
-date: 2015-12-12
 title: Nine Phase Motor Controller
+date: 2015-12-12 00:00:00 Z
+tags:
+- projects
+layout: post
 img: l3lb2.png
-tags: [projects]
 ---
 
 Over the summer, I had the privilege of participating in the [PowerWheels Racing Series][ppprs]. Think back to the little toy cars 5 year olds rode in made of plastic and hot rod dreams.

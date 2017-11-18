@@ -1,9 +1,11 @@
 ---
-layout: post
-date: 2015-12-11
 title: OpenSCAD GEB-Inspired Block
+date: 2015-12-11 00:00:00 Z
+layout: post
 img: lovehaterender.png
-tags: [projects, art]
+tags:
+- projects
+- art
 ---
 
 ![ABC XYZ block]({{ site.baseurl }}/img/lovehatecompiulation.png) <small>Block with dual words</small>

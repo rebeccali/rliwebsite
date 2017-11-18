@@ -1,9 +1,10 @@
 ---
-layout: post
-date: 2015-12-14
 title: Frozen Chainsaw Massacre
+date: 2015-12-14 00:00:00 Z
+tags:
+- projects
+layout: post
 img: covers/landon-anvita-2015-nym.jpg
-tags: [projects]
 ---
 
 The summer comes with wonderful joys. Ice cream, air conditioning, free time, and go-karts. Last summer I played pit crew for [Charles Guan's Chibi Mikuvan](http://www.etotheipiplusone.net/?cat=112).

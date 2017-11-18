@@ -1,9 +1,10 @@
 ---
-layout: post
-date: 2017-03-13 00:00:00 +0000
 title: View Camera PSF Measuring Part 1
+date: 2017-03-13 00:00:00 Z
+tags:
+- projects
+layout: post
 img: camera/experiment2.JPG
-tags: [projects]
 summary: There is a class all mechanical engineers at MIT have to take...
 ---
 
