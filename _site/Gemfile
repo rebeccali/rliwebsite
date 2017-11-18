@@ -4,4 +4,5 @@ group :jekyll_plugins do
   gem "jemoji"
   gem "exifr"
   gem "rmagick"
+  gem "github-pages"
 end
