@@ -1,9 +1,10 @@
 ---
-layout: post
-date: 2015-12-15
 title: Portrait - Neerja
+date: 2015-12-15 00:00:00 Z
+layout: post
 img: neerja/upsidedown.png
-tags: [art]
+tags:
+- art
 ---
 
 *All pictures taken with a Nikon D7100 and Sigma 18-35mm f/1.8 lens*

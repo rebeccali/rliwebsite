@@ -1,10 +1,12 @@
 ---
-layout: post
-date: 2017-11-11
 title: Tetzelcoin and Modern Reflection
+date: 2017-11-11 00:00:00 Z
+tags:
+- art
+- review
+layout: post
 description: sins are now on the blockchain
 img: columns.jpg
-tags: [art, review]
 ---
 
 When [Will Doenlen][willdoenlen] mentioned that he was working on modern indulgences in the form of [Tetzelcoin][tetzelcoin], my memories of growing up Christian resurfaced. There's a lot I really liked about being a Christian. The knowledge that someone else has got the universe covered, has got you covered, and offers freedom from your past mistakes is magical. As I have drifted away from Christianity and all its reflective rituals, I find I do not set aside weekly, or even monthly time for reflection.

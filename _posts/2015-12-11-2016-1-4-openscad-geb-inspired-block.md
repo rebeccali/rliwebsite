@@ -1,9 +1,11 @@
 ---
-layout: post
-date: 2015-12-11
 title: OpenSCAD GEB-Inspired Block
+date: 2015-12-11 00:00:00 Z
+tags:
+- projects
+- art
+layout: post
 img: lovehaterender.png
-tags: [projects, art]
 ---
 
 This is a block that I made with [OpenSCAD, a code-based 3D solid modeler][openscad]. The block is two words - love and hate - on different sides of the block such that you can only read one from any given side. The first version I made was in Rhino and promptly lost to a spontaneous system wipe. The new version is all parametric, woo~

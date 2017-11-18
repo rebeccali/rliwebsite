@@ -1,10 +1,13 @@
 ---
-layout: post
-date: 2015-12-11
 title: New Website
+date: 2015-12-11 00:00:00 Z
+tags:
+- art
+- projects
+- thoughts
+layout: post
 description: new things are not always fun things
-img: l3lb1.png # Add image post (optional)
-tags: [art, projects, thoughts]
+img: l3lb1.png
 ---
 
 Blogs are like keeping a small animal. Occasionally you have to feed them. Occasionally you have to maintain their appearance, and occasionally they're a pain in the ass to do so. My previous website was built on [Anchor CMS][anchorcms], an unwieldy heavy website for *beautiful blogging*. A SQL server later, I had Anchor running with a metric ton of backend and little bits of PHP.

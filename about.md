@@ -1,7 +1,8 @@
 ---
-layout: post
 title: About
+layout: post
 ---
+
 Rebecca Li grew up in Milwaukee, WI with music and video games. After getting her BS in Mechanical Engineering at MIT in 2017, she moved to Palo Alto, CA where she currently works for [Kitty Hawk][kittyhawk] as a controls engineer. She frequently visits Boston and New York City.
 
 She is currently learning classical guitar, windsurfing, and biking. Past projects she wish she had more time for include photography, battlebots, electric vehicles, power electronics, violin, piano, kites, hiking, rock climbing, web design, jiu jitsu, and painting.
