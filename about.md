@@ -11,17 +11,6 @@ Links I enjoy:
 * [Equals Zero](http://etotheipiplusone.net)
 * [MIT Electronic Reasearch Society](http://miters.mit.edu)
 
-Countries I have visited:
-* Canada
-* China
-* Greece
-* Iceland
-* Italy
-* Mexico
-* Spain (and Catalonia, depending how independence goes)
-* United Kingdom
-* United States of America
-
 Random Project Ideas: (If you happen to build one of these, let me know! I would love to see it):
 * **Electric skateboard "cruise control"**. Two deadman switches are on the board. The front switch, when depressed, releases the electric brake, such that if you fall off the board, the board brakes and doesn't run away. The back switch turns the board from "maintain speed" to "coast". The idea is that the rider kicks up to a certain speed (front foot engaged so brake is off). When the desired speed is achieved, the rider puts their foot on the back switch, telling the board to maintain that speed. If they want to slow down slightly, the rider moves their back foot off the back switch to change to coast, and if they need to slow down quickly they remove their front foot coming to a stop (likely more abruptly than ideally desired).
 * **Bird flight project**. A bunch of "birds" (likely origami) are released such that they fall towards the person, recreating the effect of birds flying around a person head on. It is an exhilirating experience with real birds.
