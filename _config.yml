@@ -11,6 +11,8 @@ collections:
 description: 'robotics enthusiast
 
 '
+
+destination: build
 permalink: ":title/"
 baseurl: ''
 url: htttp://rebecca.li
